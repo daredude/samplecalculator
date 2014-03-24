@@ -96,7 +96,7 @@
 		}
 		
 		function registerOperations () {
-			for (var i = operationsList.length - 1; i >= 0; i--) {
+			for (var i = 0; i < operationsList.length; i++) {
 				new OperationView({
 					el: operationsContainer,
 					model: operationsList[i],
