@@ -1,0 +1,49 @@
+h1 {
+	font-family: verdana, arial, sans-serif;
+	font-size: 0.8em;
+	background: #36F;
+	color: white;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+}
+
+button {
+	font-size: 1.5em;
+	width: 50px;
+}
+
+#container {
+	display: inline-block;
+}
+
+#display {
+	font-family: verdana, arial, sans-serif;
+	font-size: 30px;
+	background: #003;
+	color: white;
+	min-width: 200px;
+	text-align: right;
+}
+
+#display #result{
+	padding: 5px 8px;
+}
+
+#numpad {
+	background: #696969;
+	padding: 10px;
+}
+
+.buttonArea {
+	text-align: center;
+	margin: 10px auto;
+}
+
+#numbers {
+	width: 160px;
+}
+
+#calc {
+	width: 100%;
+}
